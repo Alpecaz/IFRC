@@ -59,8 +59,8 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
+      { question: "What is your rank?", required: true },
+      { question: "Are you playing in IFRC?", required: true },
       { question: "Why do you want to join?", required: true },
     ],
 
@@ -159,7 +159,7 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Biggiez",
       // Plural display name.
       namePlural: "coins",
       // Currency symbol shown in balances.
